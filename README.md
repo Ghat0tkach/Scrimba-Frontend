@@ -5,7 +5,7 @@ This Repository contains all the codes and projects which were taught in <b>Scri
 
 
 
-#This Course Shall be Divided in Three parts according to my learning phase
+# This Course Shall be Divided in Three parts according to my learning phase
 
   - [codes]
   - [Projects]

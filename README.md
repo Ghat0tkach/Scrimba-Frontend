@@ -9,4 +9,5 @@ This Repository contains all the codes and projects which were taught in <b>Scri
 
   - [codes]
   - [Projects]
+  - - [Oldgram- A minimalist Instagram UI](https://github.com/Ghat0tkach/Oldagram)
   - [Important Notes]

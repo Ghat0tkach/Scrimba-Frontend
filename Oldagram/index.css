@@ -1,0 +1,104 @@
+ 
+html, body {
+    margin: 0 auto;
+    font-family:'Source Sans Pro';
+    padding: 0;
+    background: #F5F5F5;
+    height: 100%;
+    width: 60%;
+    display: block;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   background-color: #FFFFFF;
+    
+    padding: 20px 30px;
+    border: 1px solid #c6c6c6;
+    height: 67px;
+    width: auto;
+    cursor: pointer;
+
+}
+
+.searchbox{
+    height: auto;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top:30%;
+    
+}
+input{
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+ .profile{
+    top: 30%;
+    height: auto;
+    width: auto;
+    border-radius: 50px ;
+ }
+
+.content{
+ 
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+.post-content-1{
+  
+    margin-top: 10px;
+    border: 1px solid #c6c6c6;
+    height: auto;
+    width: auto;
+  
+  
+
+}
+.user-1{
+    display: flex;
+    padding: 10px 10px;
+}
+.info{
+    display: grid;
+    position: relative;
+    top: 4px;
+
+    
+}
+.pics{
+    border-radius: 20px;
+    margin-right:15px ;
+    height: 45px;
+    width: 43px;
+    display: inline;
+    
+}
+
+
+.post{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons,.likes,.comments{
+   
+   margin-top: 10px;
+   margin-right: 10px ;
+   margin-bottom: 10px; 
+   
+    
+    
+}
+
+.interaction{
+    padding: 10px 10px;
+}

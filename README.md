@@ -12,21 +12,9 @@ This Repository contains all the codes and projects which were taught in <b>Scri
   )
   - - [Oldgram- A minimalist Instagram UI](https://github.com/Ghat0tkach/Oldagram)
   - - [Cookie-Page - The most annoying cookie consent page](https://github.com/Ghat0tkach/Scrimba-Frontend/tree/main/Cookiepage) 
-  - - [Coworking-Site](
-    Coworking Site
-  )
-   - - [NFT-Site](
-     NFT SITE
-  )
- - - [Purrfect-meme-picker](
-  Purrfect-meme-picker
-  )
-  - - [Attack-on-Titan-RPG](
-     - - RPG
-  )
-  -- [Tindoge](
-    Tindog
-  )
-  - - [Twimba](
-    Twimba-Tweeter-Tweet-Clone
-  )
+  - - [Coworking-Site](Coworking Site)
+   - - [NFT-Site](NFT Site)
+ - - [Purrfect-meme-picker](Purrfect-meme-picker)
+  - - [Attack-on-Titan-RPG](RPG)
+  - - [Tindog](Tindog)
+  - - [Twimba](Twimba-Tweeter-Tweet-Clone)

@@ -1,0 +1,215 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    position: absolute;
+   
+   
+    width: 550px;
+    margin-left: 30%;
+    background: #000000;
+    height: 100%;
+    
+}
+ul{
+    list-style: none;
+}
+header{
+    position: absolute;
+    width: 550px;
+    height: 81px;
+    left: 0px;
+    top: 0px; 
+    list-style:none;
+    
+    background: #bebebe;
+    
+}
+.img1{
+    position: absolute;
+    height: 34px;
+    width: 32.325927734375px;
+    left: 18px;
+    top: 24px;
+    border-radius: 0px;
+    
+
+    
+    
+    
+}
+.img2{
+    position: absolute;
+    height: 42px;
+width: 84px;
+left: 233px;
+top: 20px;
+border-radius: [object Object]px;
+
+    
+}
+.img3{
+position: absolute;
+height: 34px;
+width: 34px;
+left: 497px;
+top: 24px;
+border-radius: 0px;
+
+
+}
+#card .dog-img {
+   
+    height: 70vh;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 19px;
+}
+#card {
+    position: relative;
+    width: 80%;
+}
+.dog-info {
+    position: absolute;
+    color: rgb(247, 247, 247);
+    bottom: 10px;
+    left: 10px;
+}
+
+.profile{
+  
+    height: 70vh;
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+    
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    gap: 30px;
+}
+#like,#reject{
+    
+    padding: 15px 14px;
+     border-radius: 100%;
+     border: black;
+    box-shadow: 0px -1px 20px #E9E9EA;
+    background-color: #ffff;
+    z-index: 99;
+}
+
+#like:hover{
+     background: #bef6e5;
+     cursor: pointer;
+}
+#reject:hover{
+    background: #ffcadc;
+    cursor: pointer;
+    
+}
+#badge-like{
+    display: none;
+    position: absolute;
+    width: 169px;
+    height: 91.99px;
+    left: 69px;
+    top: 154px;
+    transform: rotate(-30deg);
+
+}
+#badge-nope{
+    display:none;
+    position: absolute;
+    width: 169px;
+    height: 91.99px;
+    left: 69px;
+    top: 154px;
+    transform: rotate(-30deg);
+    
+}
+
+/*mobile */
+
+
+/*tablets*/
+@media screen and (min-width:590px){
+    main{
+        height: 95vh;
+        
+        border: 2px solid;
+        border-radius: 20px;
+        top: 2%;
+        
+       }
+       #card .dog-img {
+       
+        height: 60vh;
+      
+    }
+    .dog-info {
+        position: absolute;
+        color: white;
+       
+        top: 45vh;
+        left: 4vh;
+    }
+    .actions{
+        margin-top: -5vh;
+
+    }
+}
+@media screen and (max-width:486px){
+    main{
+        height: 95vh;
+        
+        border: 2px solid;
+        border-radius: 20px;
+        top: 2%;
+        
+       }
+       #card .dog-img {
+       
+        height: 60vh;
+      
+    }
+    .dog-info {
+        position: absolute;
+        color: white;
+       
+        top: 49vh;
+        left: 1vh;
+    }
+    }
+    .actions{
+        margin-top: -5vh;
+    /* main{
+        height: 65vh;
+        
+        border: 2px solid;
+        border-radius: 20px;
+        top: 10%;
+       }
+       #card .dog-img {
+       
+        height: 40vh;
+      
+    }
+    .dog-info {
+        position: absolute;
+        color: white;
+       
+        top: 45%;
+        left: 7%;
+    }
+    .actions{
+        margin-top: -26vh;
+    } */
+}

@@ -17,7 +17,7 @@ body {
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 20px 0;
   color: rgb(249, 248, 247);
-  margin-bottom: 3rem;
+  
 }
 .navbar img{
   height: 3rem;
@@ -36,31 +36,40 @@ body {
   margin: 0;
 }
 
+main{
+  padding: 2rem;
+}
 .meme--container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem 0;
+  
 }
 .meme--form--container{
   display: flex;
   gap: 3rem;
   justify-content: center;
-  margin: 1rem 0;
+  
 }
 input{
-  width: 50%;
- 
+  
+  
+  
+  max-width: 95%;
   height: 3rem;
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 0 1rem;
   font-size: 1rem;
-  margin-bottom: 1rem;
+ 
 }
 
 button{
+  position: relative;
+  margin: 0 auto;
+  max-width: 95%;
+  margin: 1rem;
   width: 100%;
   padding: 1rem 3rem;
   cursor: pointer;
@@ -68,14 +77,17 @@ button{
   border: none; 
   border-radius: 5px;
   font-size: 1.4rem;
+  font-size: 400;
+  text-transform: uppercase;
   color: beige;
   text-align: center;
+  
 }
 .btn-1:hover{
   color: black;
    background: linear-gradient(90deg, rgb(162, 115, 185) 0%, rgb(164, 155, 208) 100%); 
  
-  transition: all 1s ease-in-out;
+  transition: all .7s ease-in-out;
 }
 
 
@@ -96,4 +108,13 @@ button{
     transform: rotate3d(0,1,0, 360deg) ;
   }
   
+}
+.meme-img{
+  min-width: 50%;
+  max-width: 60%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
